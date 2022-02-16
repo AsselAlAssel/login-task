@@ -2,15 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css" />
 </head>
 
 <body>
+    <div class="parent-container">
+        <div class="child-container">
+            <div class="form-control">
+                <!-- title befor inputs -->
+                <div class="title">
+                    <h1>Remit</h1>
+                    <h3>Welcome</h3>
+                    <p>hello hello hello hello hello hello hello</p>
+                </div>
+                <form action="#">
+                    <!-- input and the span for the email and pass before -->
+                    <span></span>
+                    <input type="email" name="email" id="email" required />
+                    <br />
+                    <span></span>
+                    <input type="password" name="password" id="password" />
+                    <div class="temp">
+                        <div style="text-align: left">
+                            <input type="checkbox" name="checkbox" id="checkbox" checked />
+                            <label for="checkbox">Remeber ME</label>
+                        </div>
+                        <div style="text-align: right">
+                            <p><a href="#">Forget pass</a></p>
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Continue" />
+                    <p>u dont have account go <a href="#">here</a></p>
+                </form>
 
+            </div>
+            <div class="img-control">
+                <img src="login.jpg" alt="login" />
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
